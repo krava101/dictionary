@@ -1,11 +1,22 @@
 :root {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 14px;
+  --charcoal: #121417;
+  --sea-green: #85aa9f;
+  --sea-green-10: #85aa9f1a;
+  --snow: #fcfcfc;
+  --cloud: #f8f8f8;
+  --pale-gray: #d1d5db;
+  --lime: #3cbf61;
+  --crimson: #d80027;
+  color: var(--charcoal);
+  background-color: var(--cloud);
 }
 
 section {
-  padding: 10px 5px;
+  padding: 0;
 }
 
 body {

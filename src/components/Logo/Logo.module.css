@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  line-height: 1.33;
+  font-size: 18px;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    line-height: 1.45;
+    font-size: 22px;
+  }
+
+  .logoIcon {
+    width: 40px;
+    height: 40px;
+  }
+}

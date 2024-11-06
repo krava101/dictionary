@@ -1,11 +1,10 @@
 import Logo from '../Logo/Logo';
-import Nav from '../Nav/Nav';
+import css from './Header.module.css';
 
 function Header() {
   return (
-    <header>
+    <header className={css.header}>
       <Logo />
-      <Nav></Nav>
     </header>
   );
 }
