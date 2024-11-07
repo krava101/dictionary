@@ -36,6 +36,7 @@
 }
 
 .input {
+  height: 56px;
   padding: 16px 18px;
   border: 1px solid #1214171a;
   border-radius: 15px;
@@ -77,4 +78,53 @@
   line-height: 1.5;
   opacity: 0.5;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .loginWrap {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login {
+    width: 628px;
+    border-radius: 25px;
+    padding: 48px 64px;
+  }
+
+  .form {
+    margin: 32px 0 16px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+    max-width: 460px;
+  }
+
+  .input:not(:nth-child(2)) {
+    margin-bottom: 18px;
+  }
+
+  .btn {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .loginWrap {
+    width: inherit;
+  }
+
+  .login {
+    width: 628px;
+    border-radius: 25px;
+    padding: 48px 64px;
+  }
 }

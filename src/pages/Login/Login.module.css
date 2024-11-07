@@ -1,4 +1,18 @@
-.login {
-  position: relative;
-  height: calc(100vh - 68px);
+@media screen and (min-width: 768px) {
+  .login {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 98px;
+    padding: 124px 0 106px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .login {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    gap: 80px;
+    padding: 98px 100px 104px;
+  }
 }

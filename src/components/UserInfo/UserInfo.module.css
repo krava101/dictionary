@@ -1,0 +1,28 @@
+.info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.menuBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menuBtn svg {
+  width: 32px;
+  height: 22px;
+}

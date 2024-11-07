@@ -13,3 +13,26 @@
   width: 247px;
   height: 191px;
 }
+
+@media screen and (min-width: 768px) {
+  .hero img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    margin-top: -11px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero img {
+    width: 498px;
+    height: 435px;
+    display: block;
+  }
+}

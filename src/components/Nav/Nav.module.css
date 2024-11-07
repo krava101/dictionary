@@ -1,0 +1,28 @@
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .link {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .link.active {
+    color: var(--snow);
+    background-color: var(--sea-green);
+  }
+}
