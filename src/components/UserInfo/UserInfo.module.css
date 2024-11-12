@@ -1,14 +1,19 @@
 .info {
   display: flex;
-  gap: 8px;
   align-items: center;
+  gap: 8px;
 }
 
-.info p {
+.name {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
 }
 
 .menuBtn {
@@ -25,4 +30,57 @@
 .menuBtn svg {
   width: 32px;
   height: 22px;
+}
+
+.logOutBtn {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 6px;
+}
+
+.logOutBtn > svg {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    gap: 16px;
+  }
+
+  .name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+  }
+
+  .menuBtn {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .info {
+    gap: 10px;
+  }
+
+  .menuBtn {
+    display: none;
+  }
+
+  .logOutBtn {
+    display: flex;
+  }
 }
