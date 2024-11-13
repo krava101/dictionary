@@ -5,17 +5,24 @@
   gap: 16px;
 }
 
-.hero p {
+.text {
   opacity: 0.8;
 }
 
-.hero img {
+.img {
   width: 247px;
   height: 191px;
+  background-image: url('../../assets/imgs/vocab-small.png');
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .img {
+    background-image: url('../../assets/imgs/vocab-small@2x.png');
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .hero img {
+  .img {
     display: none;
   }
 }
@@ -25,12 +32,12 @@
     margin-top: -11px;
   }
 
-  .hero p {
+  .text {
     font-size: 16px;
     line-height: 24px;
   }
 
-  .hero img {
+  .img {
     width: 498px;
     height: 435px;
     display: block;

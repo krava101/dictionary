@@ -1,15 +1,18 @@
 .loginWrap {
+  display: flex;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   z-index: 10;
   width: 100%;
-  border-radius: 25px 25px 0 0;
   background-color: var(--cloud);
   overflow: hidden;
 }
 
 .login {
   width: 100%;
+  max-width: 500px;
+  border-radius: 25px 25px 0 0;
   height: 100%;
   background-color: var(--sea-green-10);
   padding: 32px 16px;
@@ -82,13 +85,15 @@
 
 @media screen and (min-width: 768px) {
   .loginWrap {
-    position: static;
+    top: 20%;
     display: flex;
     justify-content: center;
+    height: 518px;
   }
 
   .login {
     width: 628px;
+    max-width: none;
     border-radius: 25px;
     padding: 48px 64px;
   }
