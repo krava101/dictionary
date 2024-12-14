@@ -13,6 +13,8 @@
   width: 247px;
   height: 191px;
   background-image: url('../../assets/imgs/vocab-small.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -41,5 +43,13 @@
     width: 498px;
     height: 435px;
     display: block;
+    background-image: url('../../assets/imgs/vocab-large.png');
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .img {
+    background-image: url('../../assets/imgs/vocab-large@2x.png');
   }
 }
